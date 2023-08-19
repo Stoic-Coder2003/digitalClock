@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", system-ui;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 800px;
+    background-color: #1f3c2f;
+}
+
+#childContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    height: 80px;
+    width: 600px;
+    background-color: #d9d9d9;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
